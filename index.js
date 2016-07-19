@@ -44,7 +44,7 @@ var infoBox = blessed.box({
 });
 
 var keyInfo = 'Keys:\n';
-keyInfo += ',/.: -/+ 1 frame\n';
+keyInfo += '[/]: -/+ 1 frame\n';
 keyInfo += '←/→: -/+ 10 frames\n';
 keyInfo += 'j/l: -/+ 100 frames\n';
 keyInfo += 'i: Set in point\n';
@@ -65,8 +65,8 @@ screen.key('l', frameChangeFunc(100));
 screen.key('left', frameChangeFunc(-10));
 screen.key('right', frameChangeFunc(10));
 
-screen.key(',', frameChangeFunc(-1));
-screen.key('.', frameChangeFunc(1));
+screen.key('[', frameChangeFunc(-1));
+screen.key(']', frameChangeFunc(1));
 
 screen.key(['i', 'o'], function(ch, key) {
   if (key.name === 'i') {
