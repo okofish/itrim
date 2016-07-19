@@ -1,5 +1,7 @@
 # itrim
 
+![iTrim screenshot](/screenshot.png)
+
 itrim is an interactive command-line video trimming tool for iTerm 2. It displays video frames using iTerm's [custom image ANSI escape codes](https://www.iterm2.com/documentation-images.html).
 
 ## Use
