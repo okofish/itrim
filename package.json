@@ -1,0 +1,22 @@
+{
+  "name": "itrim",
+  "version": "0.1.0",
+  "description": "Command-line video trimmer for iTerm 2",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "bin": {
+    "itrim": "./index.js"
+  },
+  "author": "Jesse Friedman <jesse@jesse.ws> (https://jesse.ws/)",
+  "license": "ISC",
+  "dependencies": {
+    "beeper": "^1.1.0",
+    "blessed": "^0.1.81",
+    "concat-stream": "^1.5.1",
+    "fluent-ffmpeg": "^2.1.0",
+    "term-img2": "^2.0.1",
+    "yargs": "^4.8.0"
+  }
+}
