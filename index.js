@@ -49,7 +49,8 @@ keyInfo += '←/→: -/+ 10 frames\n';
 keyInfo += 'j/l: -/+ 100 frames\n';
 keyInfo += 'i: Set in point\n';
 keyInfo += 'o: Set out point\n';
-keyInfo += 'Enter: Save file';
+keyInfo += 'Enter: Save file\n';
+keyInfo += 'q: Exit';
 
 var keys = blessed.text({
   parent: infoBox,
