@@ -1,6 +1,6 @@
 {
   "name": "itrim",
-  "version": "0.1.2",
+  "version": "0.2.0",
   "description": "Command-line video trimmer for iTerm 2",
   "main": "index.js",
   "scripts": {
