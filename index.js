@@ -222,6 +222,7 @@ function getFrame(frameNumber, cb) {
   var command = ffmpeg(videoFile)
     .videoFilters('select=gte(n\\,' + frameNumber + ')')
     .frames(1)
+    .size('480x?')
     .format('singlejpeg')
     .on('error', function(err) {
       displayError('Error getting frame ' + frameNumber + ': ' + err);

@@ -11,5 +11,5 @@ Install itrim with `npm install -g itrim` and run it with `itrim <video file>`, 
 ## TODO
 
 - [ ] Add audio support
-- [ ] Modify ffmpeg command to reduce the dimension of video frames, so iTerm doesn't lag with giant images
+- [x] Modify ffmpeg command to reduce the dimension of video frames, so iTerm doesn't lag with giant images
 - [ ] Map `g` key to a "goto frame" dialog for quickly jumping around the file
