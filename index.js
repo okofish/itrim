@@ -121,6 +121,7 @@ screen.key(['enter'], function() {
         //.audioFilters('aselect=between(n,' + info.inPoint + ',' + info.outPoint + '),asetpts=N/SR/TB')
         //.audioFilters('aselect=gte(n\\,' + info.inPoint + ')')
         //.videoFilters('trim=start_frame=' + info.inPoint + ':end_frame=' + (info.outPoint + 1))
+        .outputOptions('-qscale 1')
         .on('end', function() {
           screen.destroy();
           console.log('Saved to ' + filename + '!');
